@@ -33,3 +33,4 @@ cgi-bin/
 .well-known/
 
 wp-config.php
+wp-config-testing.php
