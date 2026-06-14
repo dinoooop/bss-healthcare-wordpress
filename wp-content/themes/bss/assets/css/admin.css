@@ -1,0 +1,9 @@
+.bss-image-preview {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bss-upload-image {
+    display: block !important;
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,78 @@
+.icon-field {
+    margin-bottom: 15px;
+}
+
+.select-icon-btn {
+    cursor: pointer;
+    border: none;
+}
+
+.icon-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.icon-modal-dialog {
+    width: 600px;
+    max-width: 90%;
+    background: #fff;
+    margin: 60px auto;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.icon-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.icon-modal-close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#iconModalContent {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.icon-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.icon-list label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.icon-list i {
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.crud-table th, .crud-table td {
+    text-align: center;
+}
+.crud-table {
+    width: 100%;
+    
+}

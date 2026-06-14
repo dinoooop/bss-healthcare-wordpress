@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+# Build files
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# WordPress uploads (if included accidentally)
+uploads/
+
+# Cache
+.cache/
+
+cgi-bin/
+.well-known/
