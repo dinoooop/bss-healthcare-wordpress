@@ -12,11 +12,7 @@ Thumbs.db
 # Node
 node_modules/
 
-# Composer
-vendor/
 
-# Build files
-build/
 
 # Environment files
 .env
