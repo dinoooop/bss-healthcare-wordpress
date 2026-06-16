@@ -127,6 +127,15 @@ function bss_faq_settings_page()
                     </td>
                 </tr>
                 <tr>
+                    <th scope="row">FAQ</th>
+                    <td>
+                        <a href="<?php echo esc_url(admin_url('edit.php?post_type=faq')); ?>"
+                            class="button button-secondary">
+                            Manage FAQ
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <th></th>
                     <td><?php submit_button(); ?></td>
                 </tr>

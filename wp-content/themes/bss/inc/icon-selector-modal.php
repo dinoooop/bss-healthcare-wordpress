@@ -98,6 +98,20 @@
                         Mail
                     </label>
                 </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="icon" value="fa-solid fa-kit-medical">
+                        <i class="fa-solid fa-kit-medical"></i>
+                        Medical Kit
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <i class="fa-solid fa-syringe"></i>
+                        syringe
+                    </label>
+                </li>
             </ul>
         </div>
     </div>

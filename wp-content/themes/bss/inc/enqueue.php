@@ -141,6 +141,14 @@ function bss_enqueue_assets() {
         true
     );
 
+    wp_enqueue_script(
+        'bss-fontawesome',
+        'https://kit.fontawesome.com/0d743a28c2.js',
+        array('jquery'),
+        '1.0',
+        true
+    );
+
     
 
     wp_enqueue_script(
@@ -196,13 +204,20 @@ function bss_admin_assets($hook) {
         '1.0',
         true
     );
-
-    wp_enqueue_style(
-        'font-awesome',
-        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css',
-        array(),
-        '5.10.0'
+    wp_enqueue_script(
+        'bss-admin-fontawesome',
+        'https://kit.fontawesome.com/0d743a28c2.js',
+        array('jquery'),
+        '1.0',
+        true
     );
+
+    // wp_enqueue_style(
+    //     'font-awesome',
+    //     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css',
+    //     array(),
+    //     '5.10.0'
+    // );
     wp_enqueue_style(
         'icon-selector',
         get_template_directory_uri() . '/assets/css/icon-selector.css',

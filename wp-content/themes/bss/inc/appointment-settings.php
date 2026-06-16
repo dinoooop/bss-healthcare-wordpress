@@ -30,7 +30,7 @@ function bss_appointment_settings_page()
 
                 <tr>
                     <th scope="row">
-                        <label for="bss_appointment_label">Appointment Label</label>
+                        <label for="bss_appointment_label">Section Label</label>
                     </th>
                     <td>
                         <input type="text" id="bss_appointment_label" name="bss_appointment_label"
@@ -40,7 +40,7 @@ function bss_appointment_settings_page()
 
                 <tr>
                     <th scope="row">
-                        <label for="bss_appointment_title">Appointment Title</label>
+                        <label for="bss_appointment_title">Section Title</label>
                     </th>
                     <td>
                         <input type="text" id="bss_appointment_title" name="bss_appointment_title"
@@ -50,7 +50,7 @@ function bss_appointment_settings_page()
 
                 <tr>
                     <th scope="row">
-                        <label for="bss_appointment_description_1">Appointment Description 1</label>
+                        <label for="bss_appointment_description_1">Description 1</label>
                     </th>
                     <td>
                         <textarea id="bss_appointment_description_1" name="bss_appointment_description_1" rows="5"
@@ -60,13 +60,14 @@ function bss_appointment_settings_page()
 
                 <tr>
                     <th scope="row">
-                        <label for="bss_appointment_description_2">Appointment Description 2</label>
+                        <label for="bss_appointment_description_2">Description 2</label>
                     </th>
                     <td>
                         <textarea id="bss_appointment_description_2" name="bss_appointment_description_2" rows="5"
                             class="large-text"><?php echo esc_textarea(get_option('bss_appointment_description_2')); ?></textarea>
                     </td>
                 </tr>
+                
                 <tr>
                     <th></th>
                     <td><?php submit_button(); ?></td>

@@ -180,6 +180,15 @@ function bss_team_settings_page()
                     </td>
                 </tr>
                 <tr>
+                    <th scope="row">Team Members</th>
+                    <td>
+                        <a href="<?php echo esc_url(admin_url('edit.php?post_type=team')); ?>"
+                            class="button button-secondary">
+                            Manage Team Members
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <th></th>
                     <td>
                         <?php submit_button(); ?>

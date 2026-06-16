@@ -149,6 +149,15 @@ function bss_testimonial_settings_page()
                     </td>
                 </tr>
                 <tr>
+                    <th scope="row">Testimonials</th>
+                    <td>
+                        <a href="<?php echo esc_url(admin_url('edit.php?post_type=testimonial')); ?>"
+                            class="button button-secondary">
+                            Manage Testimonials
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <th></th>
                     <td>
                         <?php submit_button(); ?>

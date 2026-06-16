@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
         return `<td><input type="text" class="feature_name" value="${item.feature_name || ''}"></td>
                 <td>
                     <button type="button" class="select-icon-btn">
-                        <i class="${item.icon}"></i>
+                        ${item.icon ? `<i class="${item.icon}"></i>` : 'Select Icon'}
                     </button>
                     <input type="hidden" class="icon" value="${item.icon || ''}">
                 </td>
