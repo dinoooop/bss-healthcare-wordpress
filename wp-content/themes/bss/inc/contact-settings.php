@@ -22,6 +22,7 @@ function bss_register_contact_settings()
     register_setting('bss_contact_group', 'bss_phone_1');
     register_setting('bss_contact_group', 'bss_phone_2');
     register_setting('bss_contact_group', 'bss_email');
+    register_setting('bss_contact_group', 'bss_google_map_embed');
 
     register_setting('bss_contact_group', 'bss_facebook');
     register_setting('bss_contact_group', 'bss_twitter');
@@ -84,6 +85,13 @@ function bss_contact_settings_page()
                     <td>
                         <input type="email" name="bss_email"
                             value="<?php echo esc_attr(get_option('bss_email')); ?>">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Google Map Embed</th>
+                    <td>
+                        <input type="text" name="bss_google_map_embed"
+                            value="<?php echo esc_attr(get_option('bss_google_map_embed')); ?>">
                     </td>
                 </tr>
 

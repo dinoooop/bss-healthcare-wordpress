@@ -15,6 +15,14 @@ function bss_home_settings_menu()
     );
     add_submenu_page(
         'bss-home-settings',
+        'Contact Settings',
+        'Contact Settings',
+        'manage_options',
+        'bss-contact-settings',
+        'bss_contact_settings_page'
+    );
+    add_submenu_page(
+        'bss-home-settings',
         'Banner Settings',
         'Banner Settings',
         'manage_options',

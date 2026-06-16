@@ -52,7 +52,7 @@ function bss_testimonial_meta_box_callback($post)
         id="bss_testimonial_designation"
         name="bss_testimonial_designation"
         value="<?php echo esc_attr($designation); ?>"
-        style="width:50%;">
+        style="width:98%;">
 
 <?php
 }
