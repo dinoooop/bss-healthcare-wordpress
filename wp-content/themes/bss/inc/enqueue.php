@@ -53,6 +53,10 @@ function bss_enqueue_assets() {
         get_template_directory_uri() . '/assets/css/style.css',
         array('bootstrap')
     );
+    wp_enqueue_style(
+        'bss-theme-custom-style',
+        get_template_directory_uri() . '/assets/css/custom.css'
+    );
 
     /* =====================
      * SCRIPTS

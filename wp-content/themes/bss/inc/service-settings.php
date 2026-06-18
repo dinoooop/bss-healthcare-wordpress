@@ -21,7 +21,7 @@ function bss_register_service_cpt()
     register_post_type('service', array(
         'labels' => $labels,
         'public' => true,
-        'has_archive' => true,
+        'has_archive' => false,
         'rewrite' => array('slug' => 'services'),
         'menu_icon' => 'dashicons-heart',
         'supports' => array(

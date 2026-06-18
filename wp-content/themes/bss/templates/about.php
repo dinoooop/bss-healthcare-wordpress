@@ -22,6 +22,7 @@
                 <h1 class="mb-4"><?php echo esc_html(get_option('bss_velora_title')); ?></h1>
                 <p><?php echo esc_html(get_option('bss_velora_description_1')); ?></p>
                 <p class="mb-4"><?php echo esc_html(get_option('bss_velora_description_2')); ?></p>
+                <p class="mb-4"><?php echo esc_html(get_option('bss_velora_description_3')); ?></p>
                 <?php
                 $list_items = explode(',', get_option('bss_velora_list'));
                 foreach ($list_items as $item) {

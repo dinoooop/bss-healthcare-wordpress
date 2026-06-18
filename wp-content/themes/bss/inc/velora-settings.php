@@ -9,6 +9,7 @@ function bss_velora_register_settings()
     register_setting('bss_velora_settings_group', 'bss_velora_title');
     register_setting('bss_velora_settings_group', 'bss_velora_description_1');
     register_setting('bss_velora_settings_group', 'bss_velora_description_2');
+    register_setting('bss_velora_settings_group', 'bss_velora_description_3');
     register_setting('bss_velora_settings_group', 'bss_velora_list');
     register_setting('bss_velora_settings_group', 'bss_velora_button_label');
     register_setting('bss_velora_settings_group', 'bss_velora_button_url');
@@ -61,6 +62,13 @@ function bss_velora_settings_page()
                     <td>
                         <textarea name="bss_velora_description_2" rows="5"
                             class="large-text"><?php echo esc_textarea(get_option('bss_velora_description_2')); ?></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Description 3</th>
+                    <td>
+                        <textarea name="bss_velora_description_3" rows="5"
+                            class="large-text"><?php echo esc_textarea(get_option('bss_velora_description_3')); ?></textarea>
                     </td>
                 </tr>
 
