@@ -18,7 +18,7 @@ if (have_posts()) :
         <div class="container-fluid page-header page-header-service py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">
-                    Our Services
+                    <?php the_title(); ?>
                 </h1>
 
                 <nav aria-label="breadcrumb animated slideInDown">
@@ -27,9 +27,9 @@ if (have_posts()) :
                             <a class="text-white" href="<?php echo home_url(); ?>">Home</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a class="text-white" href="<?php echo esc_url( get_permalink( get_page_by_path('services') ) ); ?>">
-    Services &&
-</a>
+                            <a class="text-white" href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>">
+                                Services
+                            </a>
                         </li>
                         <li class="breadcrumb-item text-primary active" aria-current="page">
                             <?php the_title(); ?>
@@ -52,7 +52,7 @@ if (have_posts()) :
         </div>
         <!-- Service Detail End -->
 
-<?php get_template_part('templates/faq'); ?>
+        <?php get_template_part('templates/faq'); ?>
 
 
 <?php
