@@ -114,7 +114,7 @@
                 </li>
                 <li>
                     <label>
-                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <input type="checkbox" name="icon" value="fas fa-shoe-prints">
                         <i class="fas fa-shoe-prints"></i>
                         Shoe Prints
                     </label>
@@ -122,16 +122,23 @@
                 
                 <li>
                     <label>
-                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <input type="checkbox" name="icon" value="fas fa-band-aid">
                         <i class="fas fa-band-aid"></i>
                         Band Aid
                     </label>
                 </li>
                 <li>
                     <label>
-                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <input type="checkbox" name="icon" value="fas fa-lungs">
                         <i class="fas fa-lungs"></i>
                         Lungs
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="icon" value="fas fa-clipboard-check">
+                        <i class="fas fa-clipboard-check"></i>
+                        Clipboard Check
                     </label>
                 </li>
             </ul>
