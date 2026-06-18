@@ -112,6 +112,28 @@
                         syringe
                     </label>
                 </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <i class="fas fa-shoe-prints"></i>
+                        Shoe Prints
+                    </label>
+                </li>
+                
+                <li>
+                    <label>
+                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <i class="fas fa-band-aid"></i>
+                        Band Aid
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="icon" value="fa-solid fa-syringe">
+                        <i class="fas fa-lungs"></i>
+                        Lungs
+                    </label>
+                </li>
             </ul>
         </div>
     </div>

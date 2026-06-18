@@ -23,7 +23,7 @@ get_header();
 <!-- Page Content Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row g-5 align-items-start">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <img src="http://bss-healthcare.local/wp-content/uploads/2026/06/Screenshot-2026-06-18-111306.png"
                     alt="Diabetic Foot Ulcer Treatment"
@@ -66,7 +66,7 @@ get_header();
 
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row g-5 align-items-start">
             
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <h2 class="mb-4">Pressure Injury &amp; Bed Sore Management</h2>
@@ -97,7 +97,7 @@ get_header();
 
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row g-5 align-items-start">
             
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <img src="img/surgical-wound-care.jpg"
@@ -132,7 +132,7 @@ get_header();
 
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row g-5 align-items-start">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
 
 
@@ -172,7 +172,7 @@ get_header();
 
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row g-5 align-items-start">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <img src="img/venous-leg-ulcer-treatment.jpg"
                     alt="Venous Leg Ulcer Treatment"
@@ -201,7 +201,7 @@ get_header();
 
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="row g-5 align-items-center">
+        <div class="row g-5 align-items-start">
 
             
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">

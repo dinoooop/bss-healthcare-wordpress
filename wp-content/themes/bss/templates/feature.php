@@ -27,10 +27,8 @@
                                         style="width: 55px; height: 55px;">
                                         <i class="<?php echo esc_attr($feature['icon']); ?> text-primary"></i>
                                     </div>
-                                    <?php $split = bss_split_last_word($feature['feature_name']); ?>
                                     <div class="ms-4">
-                                        <p class="text-white mb-2"><?php echo esc_html($split[0]); ?></p>
-                                        <h5 class="text-white mb-0"><?php echo esc_html($split[1]); ?></h5>
+                                        <p class="text-white mb-2"><?php echo esc_html($feature['feature_name']); ?></p>
                                     </div>
                                 </div>
                             </div>
