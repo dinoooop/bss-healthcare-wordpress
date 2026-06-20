@@ -30,3 +30,4 @@ cgi-bin/
 wp-config.php
 wp-config-testing.php
 notes/
+wp-content/plugins/
