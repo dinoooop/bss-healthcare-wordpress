@@ -19,3 +19,17 @@
     justify-content: center;
     margin-right: 10px;
 }
+
+/* Team Modal Start */
+.team-clickable {
+    cursor: pointer;
+}
+
+#teamModal .modal-body {
+    min-height: 250px;
+}
+
+.team-description {
+    line-height: 1.8;
+}
+/* Team Modal End */

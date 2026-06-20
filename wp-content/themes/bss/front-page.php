@@ -70,7 +70,7 @@ get_header();
 <?php get_template_part('templates/service'); ?>
 <?php get_template_part('templates/testimonial'); ?>
 <?php get_template_part('templates/feature'); ?>
-<?php get_template_part('templates/team'); ?>
+<?php get_template_part('templates/team', null, ['limit' => 4]); ?>
 <?php get_template_part('templates/appointment'); ?>
 <?php get_template_part('templates/faq'); ?>
 <?php get_footer(); ?>
