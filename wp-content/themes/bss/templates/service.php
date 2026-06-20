@@ -26,7 +26,7 @@
                     $icon = get_post_meta(get_the_ID(), 'service_icon', true);
                     ?>
 
-                    <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="col-md-6 wow fadeInUp">
                         <div class="service-item bg-light rounded h-100 p-5">
 
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
