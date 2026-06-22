@@ -56,8 +56,7 @@ function bss_enqueue_assets()
     );
     wp_enqueue_style(
         'bss-theme-custom-style',
-        get_template_directory_uri() . '/assets/css/custom.css',
-        array('mailpoet_public')
+        get_template_directory_uri() . '/assets/css/custom.css'
     );
 
     /* =====================

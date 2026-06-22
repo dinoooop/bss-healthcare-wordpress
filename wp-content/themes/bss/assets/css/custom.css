@@ -33,19 +33,3 @@
     line-height: 1.8;
 }
 /* Team Modal End */
-
-
-#mailpoet_form_1 form.mailpoet_form {
-    padding: 0px;
-}
-
-.mailpoet_form input[type="email"] {
-    width: 100%;
-    padding: 2rem;
-    border: 0;
-}
-
-.mailpoet_form .mailpoet_submit {
-    background: var(--bs-primary);
-    border: 0;
-}
