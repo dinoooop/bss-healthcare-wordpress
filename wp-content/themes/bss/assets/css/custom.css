@@ -1,0 +1,35 @@
+.feature-list ul {
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    margin-bottom: 1.5rem;
+    list-style: none;
+}
+
+.feature-list li i {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+/* Team Modal Start */
+.team-clickable {
+    cursor: pointer;
+}
+
+#teamModal .modal-body {
+    min-height: 250px;
+}
+
+.team-description {
+    line-height: 1.8;
+}
+/* Team Modal End */

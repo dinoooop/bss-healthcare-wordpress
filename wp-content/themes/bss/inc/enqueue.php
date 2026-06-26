@@ -1,7 +1,8 @@
 <?php
 
 add_action('wp_enqueue_scripts', 'bss_enqueue_assets');
-function bss_enqueue_assets() {
+function bss_enqueue_assets()
+{
 
     /* =====================
      * STYLES
@@ -53,19 +54,23 @@ function bss_enqueue_assets() {
         get_template_directory_uri() . '/assets/css/style.css',
         array('bootstrap')
     );
+    wp_enqueue_style(
+        'bss-theme-custom-style',
+        get_template_directory_uri() . '/assets/css/custom.css'
+    );
 
     /* =====================
      * SCRIPTS
      * ===================== */
 
-    
+
 
     // jQuery (WordPress bundled version)
     wp_enqueue_script('jquery');
 
-    
 
-    
+
+
 
     // Bootstrap
     wp_enqueue_script(
@@ -141,7 +146,15 @@ function bss_enqueue_assets() {
         true
     );
 
-    
+    wp_enqueue_script(
+        'bss-fontawesome',
+        'https://kit.fontawesome.com/0d743a28c2.js',
+        array('jquery'),
+        '1.0',
+        true
+    );
+
+
 
     wp_enqueue_script(
         'bss-faq',
@@ -158,6 +171,22 @@ function bss_enqueue_assets() {
         null,
         true
     );
+
+    wp_enqueue_script(
+        'team-modal',
+        get_template_directory_uri() . '/assets/js/team-modal.js',
+        array('jquery'),
+        null,
+        true
+    );
+
+    wp_localize_script(
+        'team-modal',
+        'bssTeam',
+        array(
+            'ajax_url' => admin_url('admin-ajax.php')
+        )
+    );
 }
 
 add_theme_support('title-tag');
@@ -168,7 +197,8 @@ register_nav_menus(array(
 
 
 
-function bss_admin_assets($hook) {
+function bss_admin_assets($hook)
+{
 
     wp_enqueue_style(
         'bss-admin-css',
@@ -186,8 +216,8 @@ function bss_admin_assets($hook) {
         '1.0',
         true
     );
-    
-   
+
+
 
     wp_enqueue_script(
         'bss-admin-icon-selector',
@@ -196,13 +226,20 @@ function bss_admin_assets($hook) {
         '1.0',
         true
     );
-
-    wp_enqueue_style(
-        'font-awesome',
-        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css',
-        array(),
-        '5.10.0'
+    wp_enqueue_script(
+        'bss-admin-fontawesome',
+        'https://kit.fontawesome.com/0d743a28c2.js',
+        array('jquery'),
+        '1.0',
+        true
     );
+
+    // wp_enqueue_style(
+    //     'font-awesome',
+    //     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css',
+    //     array(),
+    //     '5.10.0'
+    // );
     wp_enqueue_style(
         'icon-selector',
         get_template_directory_uri() . '/assets/css/icon-selector.css',

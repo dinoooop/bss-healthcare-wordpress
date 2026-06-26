@@ -25,8 +25,8 @@ function bss_register_team_cpt()
         ),
         'public'        => true,
         'menu_icon'     => 'dashicons-groups',
-        'supports'      => array('title', 'thumbnail'),
-        'show_in_rest'  => true,
+        'supports'      => array('title', 'thumbnail', 'editor'),
+        'show_in_rest'  => false,
         'has_archive'   => false,
         'rewrite'       => array('slug' => 'team'),
     ));
@@ -143,6 +143,7 @@ function bss_team_register_settings()
 {
     register_setting('bss_team_settings_group', 'bss_team_label');
     register_setting('bss_team_settings_group', 'bss_team_title');
+    register_setting('bss_team_settings_group', 'bss_team_description_1');
 }
 
 // Settings page for title
@@ -180,6 +181,22 @@ function bss_team_settings_page()
                     </td>
                 </tr>
                 <tr>
+                    <th scope="row">Section Description</th>
+                    <td>
+                        <textarea name="bss_team_description_1" rows="5"
+                            class="large-text"><?php echo esc_textarea(get_option('bss_team_description_1')); ?></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Team Members</th>
+                    <td>
+                        <a href="<?php echo esc_url(admin_url('edit.php?post_type=team')); ?>"
+                            class="button button-secondary">
+                            Manage Team Members
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <th></th>
                     <td>
                         <?php submit_button(); ?>
@@ -190,3 +207,68 @@ function bss_team_settings_page()
     </div>
 <?php
 }
+
+
+
+add_action('wp_ajax_bss_get_team_member', 'bss_get_team_member');
+add_action('wp_ajax_nopriv_bss_get_team_member', 'bss_get_team_member');
+
+function bss_get_team_member()
+{
+    $team_id = intval($_POST['team_id']);
+
+    $team = get_post($team_id);
+
+    if (!$team || $team->post_type !== 'team') {
+        wp_send_json_error();
+    }
+
+    ob_start();
+    ?>
+
+    <div class="row">
+
+        <div class="col-md-4 text-center">
+
+            <?php echo get_the_post_thumbnail(
+                $team_id,
+                'large',
+                array(
+                    'class' => 'img-fluid rounded'
+                )
+            ); ?>
+
+        </div>
+
+        <div class="col-md-8">
+
+            <h2><?php echo esc_html($team->post_title); ?></h2>
+
+            <?php
+            $designation = get_post_meta(
+                $team_id,
+                '_team_designation',
+                true
+            );
+
+            if ($designation):
+            ?>
+                <p class="text-primary fw-bold">
+                    <?php echo esc_html($designation); ?>
+                </p>
+            <?php endif; ?>
+
+            <div class="team-description">
+                <?php echo wpautop($team->post_content); ?>
+            </div>
+
+        </div>
+
+    </div>
+
+    <?php
+
+    wp_send_json_success(ob_get_clean());
+}
+
+

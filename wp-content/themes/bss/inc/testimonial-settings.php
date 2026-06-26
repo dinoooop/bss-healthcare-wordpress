@@ -52,7 +52,7 @@ function bss_testimonial_meta_box_callback($post)
         id="bss_testimonial_designation"
         name="bss_testimonial_designation"
         value="<?php echo esc_attr($designation); ?>"
-        style="width:50%;">
+        style="width:98%;">
 
 <?php
 }
@@ -146,6 +146,15 @@ function bss_testimonial_settings_page()
                                name="bss_testimonial_title"
                                value="<?php echo esc_attr(get_option('bss_testimonial_title')); ?>"
                                class="regular-text">
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">Testimonials</th>
+                    <td>
+                        <a href="<?php echo esc_url(admin_url('edit.php?post_type=testimonial')); ?>"
+                            class="button button-secondary">
+                            Manage Testimonials
+                        </a>
                     </td>
                 </tr>
                 <tr>

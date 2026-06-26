@@ -1,8 +1,31 @@
-<div class="container-xxl mb-2">
+<?php
+/*
+Template Name: Wound Care Page
+*/
+get_header();
+?>
+<!-- Page Header Start -->
+<div class="container-fluid page-header page-header-about py-5 mb-5 wow fadeIn"
+    data-wow-delay="0.1s"
+    style="background-image:url('<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>');">
+    <div class="container py-5">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb text-uppercase mb-0">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                <li class="breadcrumb-item text-primary active" aria-current="page">Services</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Page Content Start -->
+<div class="container-xxl py-5">
     <div class="container">
-        <div class="row align-items-start">
+        <div class="row g-5 align-items-start">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                <img src="http://testing.bsshealthcare.com/wp-content/uploads/2026/06/Screenshot-2026-06-18-111306.png"
+                <img src="http://bss-healthcare.local/wp-content/uploads/2026/06/Screenshot-2026-06-18-111306.png"
                     alt="Diabetic Foot Ulcer Treatment"
                     class="img-fluid rounded shadow-sm">
             </div>
@@ -38,10 +61,13 @@
     </div>
 </div>
 
-<div class="container-xxl mb-2">
-    <div class="container">
-        <div class="row align-items-start">
 
+
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-start">
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <h2 class="mb-4">Pressure Injury &amp; Bed Sore Management</h2>
                 <p>
@@ -60,7 +86,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                <img src="http://testing.bsshealthcare.com/wp-content/uploads/2026/06/Screenshot-2026-06-18-130552.png"
+                <img src="img/pressure-injury-bed-sore-management.jpg"
                     alt="Pressure Injury and Bed Sore Management"
                     class="img-fluid rounded shadow-sm">
             </div>
@@ -69,17 +95,17 @@
     </div>
 </div>
 
-<div class="container-xxl mb-2">
+<div class="container-xxl py-5">
     <div class="container">
-        <div class="row align-items-start">
-
+        <div class="row g-5 align-items-start">
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                <img src="http://testing.bsshealthcare.com/wp-content/uploads/2026/06/Screenshot-2026-06-18-130957.png"
+                <img src="img/surgical-wound-care.jpg"
                     alt="Surgical Wound Care"
                     class="img-fluid rounded shadow-sm">
             </div>
 
-
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
                 <h2 class="mb-4">Surgical Wound Care</h2>
                 <p>
@@ -104,9 +130,9 @@
 
 
 
-<div class="container-xxl mb-2">
+<div class="container-xxl py-5">
     <div class="container">
-        <div class="row align-items-start">
+        <div class="row g-5 align-items-start">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
 
 
@@ -129,9 +155,9 @@
 
             </div>
 
-
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                <img src="http://testing.bsshealthcare.com/wp-content/uploads/2026/06/Screenshot-2026-06-18-132043.png"
+                <img src="img/burn-wound-management.jpg"
                     alt="Burn Wound Management"
                     class="img-fluid rounded shadow-sm">
             </div>
@@ -144,15 +170,15 @@
 
 
 
-<div class="container-xxl mb-2">
+<div class="container-xxl py-5">
     <div class="container">
-        <div class="row align-items-start">
+        <div class="row g-5 align-items-start">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                <img src="http://testing.bsshealthcare.com/wp-content/uploads/2026/06/Screenshot-2026-06-18-132344.png"
+                <img src="img/venous-leg-ulcer-treatment.jpg"
                     alt="Venous Leg Ulcer Treatment"
                     class="img-fluid rounded shadow-sm">
             </div>
-
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
 
                 <h2 class="mb-4">Venous Leg Ulcer Treatment</h2>
@@ -173,11 +199,11 @@
 
 
 
-<div class="container-xxl mb-2">
+<div class="container-xxl py-5">
     <div class="container">
-        <div class="row align-items-start">
+        <div class="row g-5 align-items-start">
 
-
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
 
                 <h2 class="mb-4">Oxygen Therapy for Advanced Healing</h2>
@@ -200,9 +226,9 @@
 
             </div>
 
-
+            
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                <img src="http://testing.bsshealthcare.com/wp-content/uploads/2026/06/Screenshot-2026-06-18-132554.png"
+                <img src="img/oxygen-therapy-advanced-healing.jpg"
                     alt="Oxygen Therapy for Advanced Healing"
                     class="img-fluid rounded shadow-sm">
             </div>
@@ -210,3 +236,5 @@
         </div>
     </div>
 </div>
+<!-- Page Content End -->
+<?php get_footer(); ?>

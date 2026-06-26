@@ -21,7 +21,7 @@ function bss_register_service_cpt()
     register_post_type('service', array(
         'labels' => $labels,
         'public' => true,
-        'has_archive' => true,
+        'has_archive' => false,
         'rewrite' => array('slug' => 'services'),
         'menu_icon' => 'dashicons-heart',
         'supports' => array(
@@ -68,7 +68,7 @@ function bss_service_icon_callback($post)
         'fa-ambulance' => 'Ambulance',
         'fa-hospital' => 'Hospital',
     ];
-    ?>
+?>
 
     <p>
         <select name="service_icon" id="service_icon" style="width:80%;">
@@ -89,9 +89,9 @@ function bss_service_icon_callback($post)
     </div>
 
     <script>
-        jQuery(document).ready(function ($) {
+        jQuery(document).ready(function($) {
 
-            $('#service_icon').on('change', function () {
+            $('#service_icon').on('change', function() {
 
                 let icon = $(this).val();
 
@@ -110,7 +110,7 @@ function bss_service_icon_callback($post)
         });
     </script>
 
-    <?php
+<?php
 }
 
 
@@ -153,7 +153,7 @@ function bss_service_register_settings()
 // Settings page for title
 function bss_service_settings_page()
 {
-    ?>
+?>
     <div class="wrap">
         <h1>Service Settings</h1>
 
@@ -180,11 +180,20 @@ function bss_service_settings_page()
                     </td>
                 </tr>
                 <tr>
+                    <th scope="row">Services</th>
+                    <td>
+                        <a href="<?php echo esc_url(admin_url('edit.php?post_type=service')); ?>"
+                            class="button button-secondary">
+                            Manage Service
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <th></th>
                     <td><?php submit_button(); ?></td>
                 </tr>
             </table>
         </form>
     </div>
-    <?php
+<?php
 }
