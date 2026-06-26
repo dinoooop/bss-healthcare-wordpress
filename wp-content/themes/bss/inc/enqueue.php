@@ -59,6 +59,11 @@ function bss_enqueue_assets()
         get_template_directory_uri() . '/assets/css/custom.css'
     );
 
+    wp_enqueue_style(
+        'bss-theme-video-testimonial-style',
+        get_template_directory_uri() . '/assets/css/video-testimonial.css'
+    );
+
     /* =====================
      * SCRIPTS
      * ===================== */
@@ -175,6 +180,14 @@ function bss_enqueue_assets()
     wp_enqueue_script(
         'team-modal',
         get_template_directory_uri() . '/assets/js/team-modal.js',
+        array('jquery'),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'bss-theme-video-testimonial-script',
+        get_template_directory_uri() . '/assets/js/video-testimonial.js',
         array('jquery'),
         null,
         true

@@ -68,6 +68,7 @@ get_header();
 <!-- Header End -->
 <?php get_template_part('templates/about'); ?>
 <?php get_template_part('templates/service', null, ['limit' => 3]); ?>
+<?php get_template_part('templates/video-testimonial'); ?>
 <?php get_template_part('templates/testimonial'); ?>
 <?php get_template_part('templates/feature'); ?>
 <?php get_template_part('templates/team', null, ['limit' => 4]); ?>

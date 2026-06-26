@@ -22,7 +22,8 @@ get_header();
     </div>
 </div>
 <!-- Page Header End -->
-<?php get_template_part('templates/about'); ?>
-<?php get_template_part('templates/feature'); ?>
+<?php get_template_part('templates/about-section-1'); ?>
+<?php get_template_part('templates/mission'); ?>
 <?php get_template_part('templates/team'); ?>
+<?php get_template_part('templates/about-section-2'); ?>
 <?php get_footer(); ?>
