@@ -42,7 +42,7 @@
                             </div>
 
                             <h4 class="mb-3">
-                                <?php the_title(); ?>
+                                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                             </h4>
 
                             <p class="mb-4">
