@@ -33,3 +33,7 @@
     line-height: 1.8;
 }
 /* Team Modal End */
+
+.service-item h4 a {
+    color: var(--primary)
+}
