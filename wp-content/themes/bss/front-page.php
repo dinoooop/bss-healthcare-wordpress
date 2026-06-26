@@ -67,7 +67,7 @@ get_header();
 </div>
 <!-- Header End -->
 <?php get_template_part('templates/about'); ?>
-<?php get_template_part('templates/service', null, ['limit' => 4]); ?>
+<?php get_template_part('templates/service', null, ['limit' => 3]); ?>
 <?php get_template_part('templates/testimonial'); ?>
 <?php get_template_part('templates/feature'); ?>
 <?php get_template_part('templates/team', null, ['limit' => 4]); ?>

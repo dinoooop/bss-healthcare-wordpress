@@ -27,7 +27,7 @@
                     $icon = get_post_meta(get_the_ID(), 'service_icon', true);
                     ?>
 
-                    <div class="col-md-4 wow fadeInUp">
+                    <div class="col-md-6 wow fadeInUp">
                         <div class="service-item bg-light rounded h-100 p-5">
 
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
@@ -64,6 +64,13 @@
             ?>
 
         </div>
+        <?php if ($limit != -1): ?>
+            <div class="row">
+                <div class="col-lg-12 text-center ">
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="/services">View More</a>
+                </div>
+            </div>
+        <?php endif; ?>
 
     </div>
 </div>

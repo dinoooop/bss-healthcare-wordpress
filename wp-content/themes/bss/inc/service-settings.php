@@ -67,6 +67,11 @@ function bss_service_icon_callback($post)
         'fa-stethoscope' => 'Stethoscope',
         'fa-ambulance' => 'Ambulance',
         'fa-hospital' => 'Hospital',
+        'fa-shoe-prints' => 'Shoe Prints',
+        'fa-procedures' => 'Procedures',
+        'fa-fire' => 'Fire',
+        'fa-socks' => 'Socks',
+        'fa-lungs' => 'Lungs',
     ];
 ?>
 
@@ -84,7 +89,7 @@ function bss_service_icon_callback($post)
         <?php if (strpos($icon, 'bi-') === 0): ?>
             <i class="bi <?php echo esc_attr($icon); ?>"></i>
         <?php else: ?>
-            <i class="fa <?php echo esc_attr($icon ?: 'fa-heartbeat'); ?>"></i>
+            <i class="fas <?php echo esc_attr($icon ?: 'fa-heartbeat'); ?>"></i>
         <?php endif; ?>
     </div>
 

