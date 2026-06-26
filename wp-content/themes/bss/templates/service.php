@@ -1,4 +1,5 @@
 <!-- Service Start -->
+<?php $limit = $args['limit'] ?? -1; ?>
 <div class="container-xxl py-5">
     <div class="container">
 
@@ -14,7 +15,7 @@
             <?php
             $services = new WP_Query(array(
                 'post_type' => 'service',
-                'posts_per_page' => 6,
+                'posts_per_page' => $limit,
                 'orderby' => 'menu_order',
                 'order' => 'ASC'
             ));
@@ -26,7 +27,7 @@
                     $icon = get_post_meta(get_the_ID(), 'service_icon', true);
                     ?>
 
-                    <div class="col-md-6 wow fadeInUp">
+                    <div class="col-md-4 wow fadeInUp">
                         <div class="service-item bg-light rounded h-100 p-5">
 
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
