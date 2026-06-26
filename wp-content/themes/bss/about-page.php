@@ -26,4 +26,5 @@ get_header();
 <?php get_template_part('templates/mission'); ?>
 <?php get_template_part('templates/team'); ?>
 <?php get_template_part('templates/about-section-2'); ?>
+<?php get_template_part('templates/about-section-3'); ?>
 <?php get_footer(); ?>

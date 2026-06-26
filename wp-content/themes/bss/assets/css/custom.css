@@ -124,7 +124,7 @@
 .feature-right {
     padding-left: 6rem;
     padding-right: 6rem;
-
+    
 }
 .rounded-circle-icon {
     width: 55px;
@@ -133,7 +133,20 @@
 @media (max-width: 991.98px) {
     .feature-right {
         padding-inline: 0;
-    
+        
     }
+    
+}
+/* About Section - 3 ======================================= */
+.specialty-card {
+    transition: .3s;
+}
 
+.specialty-card:hover {
+    border-color: var(--primary) !important;
+    transform: translateY(-3px);
+}
+
+.specialty-card h5 {
+    margin-bottom: 12px;
 }
