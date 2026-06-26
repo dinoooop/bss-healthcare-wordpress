@@ -12,12 +12,7 @@ Thumbs.db
 # Node
 node_modules/
 
-# Composer
-vendor/
 
-# Build files
-dist/
-build/
 
 # Environment files
 .env
@@ -34,3 +29,6 @@ cgi-bin/
 
 wp-config.php
 wp-config-testing.php
+notes/
+wp-content/plugins/*
+!wp-content/plugins/index.php
