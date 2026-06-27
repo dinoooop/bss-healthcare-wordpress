@@ -202,3 +202,51 @@ function bss_service_settings_page()
     </div>
 <?php
 }
+
+
+/**
+ * Returns the service category title for the current service.
+ *
+ * @param int|null $post_id Optional. Post ID. Defaults to current post.
+ * @return string
+ */
+function bss_get_service_category_title($post_id = null)
+{
+    $post_id = $post_id ?: get_the_ID();
+
+    $advanced_wound_services = array(
+        'Diabetic Foot Ulcer Treatment',
+        'Pressure Injury & Bed Sore Management',
+        'Surgical Wound Care',
+        'Burn Wound Management',
+        'Venous Leg Ulcer Treatment',
+        'Oxygen Therapy for Advanced Healing',
+    );
+
+    $the_title = get_the_title($post_id);
+    if (in_array($the_title, $advanced_wound_services, true)) {
+        return 'Our Advanced Wound Care Services';
+    }
+
+    return $the_title;
+}
+function bss_is_advanced_wound_care($post_id = null)
+{
+    $post_id = $post_id ?: get_the_ID();
+
+    $advanced_wound_services = array(
+        'Diabetic Foot Ulcer Treatment',
+        'Pressure Injury & Bed Sore Management',
+        'Surgical Wound Care',
+        'Burn Wound Management',
+        'Venous Leg Ulcer Treatment',
+        'Oxygen Therapy for Advanced Healing',
+    );
+
+    $the_title = get_the_title($post_id);
+    if (in_array($the_title, $advanced_wound_services, true)) {
+        return true;
+    }
+
+    return false;
+}

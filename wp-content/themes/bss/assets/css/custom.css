@@ -150,3 +150,22 @@
 .specialty-card h5 {
     margin-bottom: 12px;
 }
+
+.bss-icon-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.bss-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 50%;
+    margin-right: .75rem;
+    flex-shrink: 0;
+}
+

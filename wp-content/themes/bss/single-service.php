@@ -18,7 +18,7 @@ if (have_posts()) :
         <div class="container-fluid page-header page-header-service py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">
-                    <?php the_title(); ?>
+                    <?php echo bss_get_service_category_title(); ?>
                 </h1>
 
                 <nav aria-label="breadcrumb animated slideInDown">
@@ -51,6 +51,10 @@ if (have_posts()) :
             </div>
         </div>
         <!-- Service Detail End -->
+
+        <?php if(bss_is_advanced_wound_care()): ?>
+            <?php get_template_part('templates/advanced-wound-care'); ?>
+        <?php endif; ?>
 
         <?php get_template_part('templates/faq'); ?>
 
