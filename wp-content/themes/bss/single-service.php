@@ -44,14 +44,6 @@ if (have_posts()):
         <!-- Service Detail Start -->
         <?php the_content(); ?>
         <!-- Service Detail End -->
-
-        <?php if (bss_is_advanced_wound_care()): ?>
-            <?php get_template_part('templates/advanced-wound-care'); ?>
-        <?php endif; ?>
-
-        <?php get_template_part('templates/faq'); ?>
-
-
         <?php
     endwhile;
 endif;

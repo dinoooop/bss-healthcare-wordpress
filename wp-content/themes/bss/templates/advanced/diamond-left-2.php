@@ -2,8 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 diamond__image">
-                <img src="http://bss-healthcare.local/wp-content/uploads/2026/06/1000.jpg"
-                    alt="Advanced Wound Care at BSS Healthcare International">
+                <img src="/wp-content/themes/bss/assets/images/pexels-negativespace-48604.jpg" alt="Advanced Wound Care at BSS Healthcare International">
             </div>
             <div class="col-lg-6 diamond__content">
                 <h2>Why Early Advanced Wound Care Matters</h2>
