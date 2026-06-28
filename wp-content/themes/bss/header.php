@@ -22,9 +22,11 @@
         </div>
     </div>
 
-    <a href="https://wa.me/919876543210" class="whatsapp-button btn-primary" target="_blank"
-        aria-label="Chat with us on WhatsApp">
+    <a href="https://wa.me/919876543210" class="whatsapp-button" target="_blank" aria-label="Chat with us on WhatsApp">
         <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp Icon" />
+    </a>
+    <a href="tel:+919876543210" class="call-btn">
+        <i class="fa fa-phone"></i>
     </a>
 
     <!-- Topbar Start -->
@@ -52,18 +54,15 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" target="_blank"
-                        href="<?php echo esc_url(get_option('bss_facebook')); ?>"><i
-                            class="fab fa-facebook-f"></i></a>
+                        href="<?php echo esc_url(get_option('bss_facebook')); ?>"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" target="_blank"
                         href="<?php echo esc_url(get_option('bss_twitter')); ?>"><i class="bi bi-twitter-x"></i></a>
                     <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" target="_blank"
                         href="<?php echo esc_url(get_option('bss_youtube')); ?>"><i class="bi bi-youtube"></i></a>
                     <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" target="_blank"
-                        href="<?php echo esc_url(get_option('bss_linkedin')); ?>"><i
-                            class="fab fa-linkedin-in"></i></a>
+                        href="<?php echo esc_url(get_option('bss_linkedin')); ?>"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" target="_blank"
-                        href="<?php echo esc_url(get_option('bss_instagram')); ?>"><i
-                            class="fab fa-instagram"></i></a>
+                        href="<?php echo esc_url(get_option('bss_instagram')); ?>"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -74,17 +73,13 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
 
-        <a href="<?php echo esc_url(home_url('/')); ?>"
-            class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
 
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png"
-                alt="<?php bloginfo('name'); ?>"
-                style="height: 70px;">
+                alt="<?php bloginfo('name'); ?>" style="height: 90px;">
         </a>
 
-        <button type="button" class="navbar-toggler me-4"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -94,16 +89,15 @@
             <?php
             wp_nav_menu(array(
                 'theme_location' => 'primary',
-                'container'      => false,
-                'menu_class'     => 'navbar-nav ms-auto p-4 p-lg-0',
-                'fallback_cb'    => false,
+                'container' => false,
+                'menu_class' => 'navbar-nav ms-auto p-4 p-lg-0',
+                'fallback_cb' => false,
                 'menu_item_class' => 'nav-item nav-link',
             ));
             ?>
 
-            <a href="https://wa.me/919876543210"
-                target="_blank"
-                class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">
+            <a href="https://wa.me/919876543210" target="_blank"
+                class="btn btn-primary rounded-0 px-lg-5 d-none d-lg-block appointment">
                 Appointment
                 <i class="fa fa-arrow-right ms-3"></i>
             </a>

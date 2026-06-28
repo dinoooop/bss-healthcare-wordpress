@@ -34,8 +34,9 @@
     position: fixed;
     display: none;
     right: 45px;
-    bottom: 80px;
+    bottom: 140px;
     z-index: 99;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -92,6 +93,10 @@
 
 
 /*** Navbar ***/
+.navbar {
+    padding: 2rem;
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -117,7 +122,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -253,7 +258,7 @@
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -291,19 +296,19 @@
         max-width: 100% !important;
     }
 
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -405,6 +410,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -412,6 +418,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -440,7 +447,7 @@
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
     background: var(--primary) !important;
-} 
+}
 
 .testimonial-carousel .owl-nav {
     position: absolute;
@@ -535,83 +542,112 @@
 /* FAQ Start*/
 .container-faq {
     background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 5px 10px 0 rgb(0,0,0,0.15);
-  margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.15);
+    margin: 20px 0;
 }
+
 .question {
-  font-size: 1.2rem;
-  font-weight: 600;
-  padding: 20px 80px 20px 20px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  color: var(--dark);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 80px 20px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--dark);
 }
 
 .question::after {
-  content: "\002B";
-  font-size: 2.2rem;
-  position: absolute;
-  right: 20px;
-  transition: 0.2s;
+    content: "\002B";
+    font-size: 2.2rem;
+    position: absolute;
+    right: 20px;
+    transition: 0.2s;
 }
 
 .question.active::after {
-  transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .answercont {
-  max-height: 0;
-  overflow: hidden;
-  transition: 0.3s;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
 .answer {
-  padding: 0 20px 20px;
-  line-height: 1.5rem;
+    padding: 0 20px 20px;
+    line-height: 1.5rem;
 }
 
-.question.active + .answercont {
+.question.active+.answercont {}
+
+@media screen and (max-width: 790px) {
+    html {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
 }
 
-@media screen and (max-width: 790px){
-  html {
-    font-size: 14px;
-  }
-  .wrapper {
-  width: 80%;
-}
-}
 /* FAQ End*/
 
 
 
 /* Whats app Start*/
 .whatsapp-button {
-  position: fixed;
-  bottom: 20px;
-  right: 45px;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  transition: all 0.3s ease;
-  text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 45px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    background-color: #29ba41;
+}
+
+.call-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 45px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    background-color: #f11e1e;
+    color: #EEEEEE;
 }
 
 .whatsapp-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.call-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    color: #EEEEEE;
+
 }
 
 .whatsapp-button img {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
+
 /* Whats app End*/
