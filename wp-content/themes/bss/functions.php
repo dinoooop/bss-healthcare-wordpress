@@ -12,3 +12,5 @@ require_once get_template_directory() . '/inc/team-settings.php';
 require_once get_template_directory() . '/inc/appointment-settings.php';
 require_once get_template_directory() . '/inc/faq-settings.php';
 require_once get_template_directory() . '/inc/footer-settings.php';
+
+ remove_filter('the_content', 'wpautop');

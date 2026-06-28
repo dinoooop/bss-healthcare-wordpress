@@ -44,23 +44,6 @@ get_header();
                         <img class="img-fluid" src="<?php echo esc_url(get_option('bss_banner_1')); ?>" alt="">
                     </div>
                 <?php endif; ?>
-                <?php if (get_option('bss_banner_2')): ?>
-                    <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="<?php echo esc_url(get_option('bss_banner_2')); ?>" alt="">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Neurology</h1>
-                        </div>
-                    </div>
-                <?php endif; ?>
-                <?php if (get_option('bss_banner_3')): ?>
-                    <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="<?php echo esc_url(get_option('bss_banner_3')); ?>" alt="">
-                        <div class="owl-carousel-text">
-                            <h1 class="display-1 text-white mb-0">Pulmonary</h1>
-                        </div>
-                    </div>
-                <?php endif; ?>
-
             </div>
         </div>
     </div>

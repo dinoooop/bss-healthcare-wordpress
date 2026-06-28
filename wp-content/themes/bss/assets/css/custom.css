@@ -32,6 +32,7 @@
 .team-description {
     line-height: 1.8;
 }
+
 /* Team Modal End */
 
 .service-item h4 a {
@@ -41,8 +42,9 @@
 /* Mission               ---- START */
 .mission {
     padding: 8rem 0;
-    
+
 }
+
 .mission .testimonial-card {
     background: #fff;
     border-radius: 10px;
@@ -72,6 +74,7 @@
         padding: 24px;
     }
 }
+
 /* Mission & Vision END */
 
 /* About Section - 1 Start ======================================= */
@@ -119,24 +122,28 @@
         min-height: auto;
     }
 }
+
 /* About Section - 1 End ======================================= */
 
 .feature-right {
     padding-left: 6rem;
     padding-right: 6rem;
-    
+
 }
+
 .rounded-circle-icon {
     width: 55px;
     height: 55px;
 }
+
 @media (max-width: 991.98px) {
     .feature-right {
         padding-inline: 0;
-        
+
     }
-    
+
 }
+
 /* About Section - 3 ======================================= */
 .specialty-card {
     transition: .3s;
@@ -156,6 +163,7 @@
     align-items: center;
     margin-bottom: 1rem;
 }
+
 .bss-icon {
     width: 40px;
     height: 40px;
@@ -173,4 +181,93 @@
 .appointment {
     padding-top: 50px;
     padding-bottom: 69px;
+}
+
+/* Diamond --------------------------------- */
+/* Diamond Section */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.diamond {
+    /* overflow: hidden; */
+}
+
+.diamond .row {
+    margin: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.diamond__image {
+    padding: 0;
+    min-height: 500px;
+}
+
+.diamond__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.diamond__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 50px;
+}
+
+.diamond__content h3 {
+    margin-bottom: 24px;
+}
+
+.diamond__content p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.diamond__content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .diamond__image {
+        display: none;
+    }
+
+    .diamond__content {
+        padding: 40px 20px;
+    }
+}
+
+
+/* tanzanite  ======================================*/
+.part {
+    padding-block: 10rem;
+}
+
+.bss-block-card {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(211, 211, 211);
+    padding-inline: 2rem;
+    padding-block: 4rem;
+    border-radius: 9px;
+    gap: 2rem;
+    text-align: center;
+    transition: .3s;
+
+}
+
+.bss-block-card i {
+    font-size: 3rem;
+}
+
+.bss-block-card:hover {
+    border-color: var(--primary);
 }
