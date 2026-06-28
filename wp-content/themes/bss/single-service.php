@@ -1,9 +1,10 @@
 <?php
 get_header();
 
-if (have_posts()) :
-    while (have_posts()) : the_post();
-?>
+if (have_posts()):
+    while (have_posts()):
+        the_post();
+        ?>
 
         <style>
             .page-header-service {
@@ -41,25 +42,17 @@ if (have_posts()) :
         <!-- Page Header End -->
 
         <!-- Service Detail Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-
-                <div class="row g-5">
-                    <?php the_content(); ?>
-                </div>
-
-            </div>
-        </div>
+        <?php the_content(); ?>
         <!-- Service Detail End -->
 
-        <?php if(bss_is_advanced_wound_care()): ?>
+        <?php if (bss_is_advanced_wound_care()): ?>
             <?php get_template_part('templates/advanced-wound-care'); ?>
         <?php endif; ?>
 
         <?php get_template_part('templates/faq'); ?>
 
 
-<?php
+        <?php
     endwhile;
 endif;
 
