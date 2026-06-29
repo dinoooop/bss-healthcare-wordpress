@@ -22,13 +22,13 @@ get_header();
 <!-- Page Content Start -->
 <?php get_template_part('templates/advanced/diamond-left-1'); ?>
 <?php get_template_part('templates/advanced/tanzanite'); ?>
-<?php get_template_part('templates/advanced/tourmaline'); ?>
+<?php get_template_part('templates/advanced/tourmaline-right'); ?>
 <?php get_template_part('templates/advanced/ruby-1'); ?>
 <?php get_template_part('templates/advanced/ruby-2'); ?>
 <?php get_template_part('templates/advanced/morganite'); ?>
 <?php get_template_part('templates/advanced/opal'); ?>
 <?php get_template_part('templates/advanced/diamond-left-2'); ?>
-<?php get_template_part('templates/advanced/faq-advanced'); ?>
-<?php get_template_part('templates/advanced/appointment-advanced'); ?>
+<?php get_template_part('templates/advanced/faq'); ?>
+<?php get_template_part('templates/advanced/sapphire'); ?>
 <!-- Page Content End -->
 <?php get_footer(); ?>

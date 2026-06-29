@@ -22,9 +22,9 @@ get_header();
     </div>
 </div>
 <!-- Page Header End -->
-<?php get_template_part('templates/about-section-1'); ?>
-<?php get_template_part('templates/mission'); ?>
+<?php get_template_part('templates/about/emarald'); ?>
+<?php get_template_part('templates/about/aquamarine'); ?>
 <?php get_template_part('templates/team'); ?>
-<?php get_template_part('templates/about-section-2'); ?>
-<?php get_template_part('templates/about-section-3'); ?>
+<?php get_template_part('templates/about/tourmaline-left'); ?>
+<?php get_template_part('templates/about/ruby'); ?>
 <?php get_footer(); ?>
