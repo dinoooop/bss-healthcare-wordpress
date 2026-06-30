@@ -6,9 +6,7 @@
                     <?php echo esc_html(get_option('bss_appointment_label')); ?>
                 </p>
 
-                <h1 class="mb-4">
-                    Book an Advanced Wound Care Consultation in Kochi, Kerala
-                </h1>
+                <h2 class="mb-4">Sapphire</h2>
 
                 <p class="mb-4">
                     At <strong>BSS Healthcare International</strong>, we are committed to delivering compassionate, evidence-based, and technology-driven wound care that supports faster healing and better patient outcomes. From advanced wound dressings and <strong>Negative Pressure Wound Therapy (NPWT)</strong> to <strong>Topical Oxygen Therapy</strong>, our expert team provides personalized care for every stage of the healing journey.

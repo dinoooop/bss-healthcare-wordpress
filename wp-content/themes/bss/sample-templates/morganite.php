@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="text-left mb-5">
-            <h2>Advanced Wound Care Dressings</h2>
+            <h2>Morganite</h2>
         </div>
 
         <div class="row g-5 align-items-start">
@@ -82,7 +82,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-water fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Moisture-Balancing Dressings</h4>
+                            <h5>Moisture-Balancing Dressings</h5>
                             <p class="mb-0">Maintain the ideal moisture environment that supports healthy tissue
                                 repair while preventing wound dehydration or excessive moisture.</p>
                         </div>
@@ -91,7 +91,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-shield-virus fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Antimicrobial Dressings</h4>
+                            <h5>Antimicrobial Dressings</h5>
                             <p class="mb-0">Designed to reduce bacterial growth and lower the risk of wound
                                 infection using clinically proven antimicrobial agents.</p>
                         </div>
@@ -100,7 +100,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-cloud fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Foam Dressings</h4>
+                            <h5>Foam Dressings</h5>
                             <p class="mb-0">Highly absorbent dressings suitable for wounds with moderate to heavy
                                 exudate while protecting fragile tissue.</p>
                         </div>
@@ -109,7 +109,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-tint fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Hydrogel Dressings</h4>
+                            <h5>Hydrogel Dressings</h5>
                             <p class="mb-0">Provide hydration for dry wounds and assist in autolytic debridement
                                 by softening dead tissue.</p>
                         </div>
@@ -118,7 +118,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-leaf fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Alginate Dressings</h4>
+                            <h5>Alginate Dressings</h5>
                             <p class="mb-0">Ideal for highly exuding wounds by absorbing large amounts of drainage
                                 while maintaining a moist healing environment.</p>
                         </div>
@@ -127,7 +127,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-band-aid fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Hydrocolloid Dressings</h4>
+                            <h5>Hydrocolloid Dressings</h5>
                             <p class="mb-0">Protect wounds while promoting faster epithelialization and supporting
                                 natural healing.</p>
                         </div>
@@ -136,7 +136,7 @@
                     <div class="col">
                         <div class="bss-block-card">
                             <i class="fas fa-hand-holding-medical fa-2x text-primary mb-3" aria-hidden="true"></i>
-                            <h4>Silicone Dressings</h4>
+                            <h5>Silicone Dressings</h5>
                             <p class="mb-0">Gentle, atraumatic dressings that minimize pain during dressing
                                 changes and protect delicate skin.</p>
                         </div>

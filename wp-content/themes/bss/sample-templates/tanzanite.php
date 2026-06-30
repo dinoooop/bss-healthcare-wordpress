@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="text-center mb-5">
-            <h2>Why Choose BSS Healthcare International for Advanced Wound Care?</h2>
+            <h2>Tanzanite</h2>
             <p class="mx-auto" style="max-width: 800px;">
                 Healing a wound involves much more than covering it with a bandage. Successful wound management
                 requires identifying the underlying cause, controlling infection, promoting healthy tissue growth,

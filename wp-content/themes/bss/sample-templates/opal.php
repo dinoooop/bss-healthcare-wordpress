@@ -1,7 +1,7 @@
 <div class="container-xxl py-5">
     <div class="container">
 
-        <h3 class="mb-4">Our Advanced Wound Care Approach</h3>
+        <h3 class="mb-4">Opal</h3>
         <p class="mb-4">Every patient receives comprehensive wound management that includes:</p>
 
         <div class="d-flex flex-column gap-3">

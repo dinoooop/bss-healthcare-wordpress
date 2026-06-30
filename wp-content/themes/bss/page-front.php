@@ -49,12 +49,12 @@ get_header();
     </div>
 </div>
 <!-- Header End -->
-<?php get_template_part('templates/about'); ?>
-<?php get_template_part('templates/service', null, ['limit' => 3]); ?>
-<?php get_template_part('templates/video-testimonial'); ?>
-<?php get_template_part('templates/testimonial'); ?>
-<?php get_template_part('templates/feature'); ?>
-<?php get_template_part('templates/team', null, ['limit' => 4]); ?>
-<?php get_template_part('templates/appointment'); ?>
-<?php get_template_part('templates/faq'); ?>
+<?php get_template_part('templates/home/about'); ?>
+<?php get_template_part('templates/home/service', null, ['limit' => 3]); ?>
+<?php get_template_part('templates/home/video-testimonial'); ?>
+<?php get_template_part('templates/home/testimonial'); ?>
+<?php get_template_part('templates/home/feature'); ?>
+<?php get_template_part('templates/home/team', null, ['limit' => 4]); ?>
+<?php get_template_part('templates/home/appointment'); ?>
+<?php get_template_part('templates/home/faq'); ?>
 <?php get_footer(); ?>

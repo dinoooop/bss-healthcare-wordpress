@@ -5,7 +5,7 @@
             <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
                 <div class="p-lg-5 ps-lg-0">
 
-                    <h3 class="text-white mb-3">Conditions We Treat</h3>
+                    <h3 class="text-white mb-3">Tourmaline Right</h3>
                     <p class="text-white mb-4 pb-2">
                         Our advanced wound care services are suitable for patients experiencing:
                     </p>

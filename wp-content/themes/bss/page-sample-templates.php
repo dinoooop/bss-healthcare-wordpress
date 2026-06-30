@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Service Advanced Test
+Template Name: Sample Templates Page
 */
 get_header();
 ?>
@@ -20,15 +20,22 @@ get_header();
 </div>
 <!-- Page Header End -->
 <!-- Page Content Start -->
-<?php get_template_part('templates/advanced/diamond-left-1'); ?>
-<?php get_template_part('templates/advanced/tanzanite'); ?>
-<?php get_template_part('templates/advanced/tourmaline-right'); ?>
-<?php get_template_part('templates/advanced/ruby-1'); ?>
-<?php get_template_part('templates/advanced/ruby-2'); ?>
-<?php get_template_part('templates/advanced/morganite'); ?>
-<?php get_template_part('templates/advanced/opal'); ?>
-<?php get_template_part('templates/advanced/diamond-left-2'); ?>
-<?php get_template_part('templates/advanced/faq'); ?>
-<?php get_template_part('templates/advanced/sapphire'); ?>
+<?php 
+get_template_part('sample-templates/malachite'); 
+get_template_part('sample-templates/peridot'); 
+get_template_part('sample-templates/aquamarine'); 
+get_template_part('sample-templates/diamond-left'); 
+get_template_part('sample-templates/emarald'); 
+get_template_part('sample-templates/faq'); 
+get_template_part('sample-templates/garnet'); 
+get_template_part('sample-templates/morganite'); 
+get_template_part('sample-templates/opal'); 
+get_template_part('sample-templates/ruby'); 
+get_template_part('sample-templates/sapphire'); 
+get_template_part('sample-templates/tanzanite'); 
+get_template_part('sample-templates/tourmaline-left'); 
+get_template_part('sample-templates/tourmaline-right'); 
+?>
+
 <!-- Page Content End -->
 <?php get_footer(); ?>
