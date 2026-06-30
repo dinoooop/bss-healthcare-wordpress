@@ -21,6 +21,6 @@ get_header();
     </div>
 </div>
 <!-- Page Header End -->
-<?php get_template_part('templates/service'); ?>
-<?php get_template_part('templates/testimonial'); ?>
+<?php get_template_part('templates/home/service'); ?>
+<?php get_template_part('templates/home/testimonial'); ?>
 <?php get_footer(); ?>

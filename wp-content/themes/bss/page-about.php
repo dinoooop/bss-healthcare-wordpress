@@ -24,7 +24,7 @@ get_header();
 <!-- Page Header End -->
 <?php get_template_part('templates/about/emarald'); ?>
 <?php get_template_part('templates/about/aquamarine'); ?>
-<?php get_template_part('templates/team'); ?>
+<?php get_template_part('templates/home/team'); ?>
 <?php get_template_part('templates/about/tourmaline-left'); ?>
 <?php get_template_part('templates/about/ruby'); ?>
 <?php get_footer(); ?>
