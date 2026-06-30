@@ -22,9 +22,9 @@ get_header();
 <!-- Page Content Start -->
 <?php 
 // get_template_part('templates/advanced'); 
-get_template_part('templates/multi-speciality-clinic'); 
+// get_template_part('templates/multi-speciality-clinic'); 
 // get_template_part('templates/stoma-care'); 
-// get_template_part('templates/home-care'); 
+get_template_part('templates/home-care'); 
 ?>
 
 <!-- Page Content End -->

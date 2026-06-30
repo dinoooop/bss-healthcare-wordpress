@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-lg-6 diamond__image">
-                <img src="/wp-content/themes/bss/assets/images/advanced-wound-care.jpg"
+                <img src="/wp-content/themes/bss/assets/images/pexels-jakob-welik-175965354-15174768.jpg"
                     alt="Professional Stoma Care and Continence Care Services in Kochi, Kerala" />
             </div>
 
@@ -38,7 +38,7 @@
 
 
 
-<section class="container-xxl py-4">
+<section class="container-xxl part">
     <div class="container">
 
         <div class="text-center mb-5">
@@ -306,7 +306,7 @@
                     
                 </div>
                 <div class="card">
-                    <h2>Home-Based Stoma Care & <br />Continence Care in Kochi</h2>
+                    <h2>Why Choose BSS Healthcare?</h2>
                     <p>At BSS Healthcare International Speciality Clinics & Advanced Wound Care Centre, we believe that successful stoma and continence care extends beyond clinical treatment. Our multidisciplinary team combines medical expertise with compassionate, patient-centred care to support individuals throughout every stage of recovery.</p>
                     <p>By focusing on education, prevention, personalized treatment plans, and continuous follow-up, we help patients overcome daily challenges while improving comfort, independence, and overall quality of life. Whether you require post-surgical stoma management, long-term continence care, or home healthcare services in Kochi, our team is committed to delivering safe, reliable, and evidence-based care.</p>
                 </div>

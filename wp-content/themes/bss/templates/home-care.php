@@ -23,9 +23,6 @@
 
 
 
-
-
-
 <section class="container-xxl part">
     <div class="container">
 
