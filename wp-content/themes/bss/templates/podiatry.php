@@ -6,7 +6,7 @@
                     alt="Advanced Podiatry Services for Foot, Ankle and Lower Limb Care at BSS Healthcare International" />
             </div>
             <div class="col-lg-6 diamond__content">
-                <h1>Advanced Podiatry Services in Kerala, Kochi</h1>
+                <h2>Advanced Podiatry Services</h2>
                 <p><em>Comprehensive Foot, Ankle &amp; Lower Limb Care at <strong>BSS Healthcare
                             International</strong></em></p>
                 <p>Healthy feet are essential for mobility, balance, and overall quality of life. However, conditions

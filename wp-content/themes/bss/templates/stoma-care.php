@@ -8,7 +8,7 @@
             </div>
 
             <div class="col-lg-6 diamond__content">
-                <h1>Professional Stoma Care &amp; Continence Care Services in Kochi, Kerala</h1>
+                <h1>Stoma Care & Continence Care Services</h1>
 
                 <p>
                     Living with a stoma or managing bladder and bowel continence problems can bring significant

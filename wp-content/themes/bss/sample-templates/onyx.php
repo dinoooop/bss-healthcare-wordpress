@@ -3,147 +3,169 @@
         <div class="row g-5 align-items-start">
 
             <!-- Left -->
-            <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                 <div class="border rounded-2 p-5 h-100 mb-4">
 
-                    <h2 class="mb-4">What is a Diabetic Foot Ulcer?</h2>
+                    <h2 class="mb-4">Onyx</h2>
 
                     <p>
-                        A diabetic foot ulcer is an open wound or sore that develops on the foot of a person with
-                        diabetes. It
-                        commonly occurs due to a combination of reduced blood circulation, nerve damage, pressure on the
-                        feet, and delayed wound healing.
+                        Burn wound management is the specialized medical care provided to treat burns, prevent
+                        complications, promote healthy tissue regeneration, and minimize scarring. Effective burn care
+                        focuses on maintaining a clean wound environment, controlling pain, preventing infection, and
+                        supporting the body's natural healing process.
                     </p>
 
                     <p>
-                        Without prompt treatment, even a small wound can progress into a serious infection. Early
-                        diagnosis
-                        and specialist wound care are essential to protect the foot and reduce the risk of
-                        complications.
-                    </p>
-
-                    <h4 class="mt-5 mb-4">What Causes Diabetic Foot Ulcers?</h4>
-
-                    <p class="mb-4">
-                        Diabetic foot ulcers usually develop due to multiple underlying factors, including:
-                    </p>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-shoe-prints" aria-hidden="true"></i></span>
-                        <span>Peripheral neuropathy (loss of sensation in the feet)</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-heartbeat" aria-hidden="true"></i></span>
-                        <span>Poor blood circulation (Peripheral Arterial Disease)</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-syringe" aria-hidden="true"></i></span>
-                        <span>Uncontrolled diabetes</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-shoe-prints" aria-hidden="true"></i></span>
-                        <span>Foot deformities</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-compress-arrows-alt" aria-hidden="true"></i></span>
-                        <span>Repeated pressure or friction</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-shoe-prints" aria-hidden="true"></i></span>
-                        <span>Improper footwear</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-band-aid" aria-hidden="true"></i></span>
-                        <span>Minor cuts, blisters, or injuries</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-hand-paper" aria-hidden="true"></i></span>
-                        <span>Dry or cracked skin</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-history" aria-hidden="true"></i></span>
-                        <span>Previous foot ulcers or amputations</span>
-                    </div>
-
-                    <p class="mt-4 mb-0">
-                        Managing these risk factors plays a vital role in preventing future ulcers.
+                        Depending on the severity of the burn, treatment may involve advanced wound dressings,
+                        debridement, infection control, <strong>Negative Pressure Wound Therapy (NPWT)</strong>, and
+                        long-term scar management.
                     </p>
 
                 </div>
             </div>
 
             <!-- Right -->
-            <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
+            <div class="col-lg-8 wow fadeIn" data-wow-delay="0.3s">
 
                 <div class="border rounded-2 p-4 specialty-card mb-4">
 
-                    <h4 class="mb-4">Signs and Symptoms of a Diabetic Foot Ulcer</h4>
+                    <h4 class="mb-4">Common Causes of Burn Injuries</h4>
 
                     <p class="mb-4">
-                        Common signs:
+                        Burn wounds can result from various types of injuries, including:
                     </p>
 
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-bandage" aria-hidden="true"></i></span>
-                        <span>An open sore or wound on the foot</span>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-fire" aria-hidden="true"></i></span>
+                                <span>Thermal burns (fire, hot liquids, steam, or hot objects)</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-flask" aria-hidden="true"></i></span>
+                                <span>Chemical burns</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-bolt" aria-hidden="true"></i></span>
+                                <span>Electrical burns</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-radiation" aria-hidden="true"></i></span>
+                                <span>Radiation burns</span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-hand-paper" aria-hidden="true"></i></span>
+                                <span>Friction burns</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-tint" aria-hidden="true"></i></span>
+                                <span>Scald injuries</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-industry" aria-hidden="true"></i></span>
+                                <span>Industrial or workplace burns</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-home" aria-hidden="true"></i></span>
+                                <span>Household accidents</span>
+                            </div>
+
+                        </div>
                     </div>
 
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-triangle-exclamation" aria-hidden="true"></i></span>
-                        <span>Redness or swelling around the wound</span>
-                    </div>
+                    <p class="mt-4 mb-0">
+                        Early medical attention is essential to reduce tissue damage and improve healing outcomes.
+                    </p>
 
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-droplet" aria-hidden="true"></i></span>
-                        <span>Drainage from the ulcer</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-wind" aria-hidden="true"></i></span>
-                        <span>Foul-smelling discharge</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-bolt" aria-hidden="true"></i></span>
-                        <span>Pain (although some patients may not feel pain due to neuropathy)</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-skull" aria-hidden="true"></i></span>
-                        <span>Black or dead tissue around the wound</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-temperature-high" aria-hidden="true"></i></span>
-                        <span>Warmth around the affected area</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-hourglass-half" aria-hidden="true"></i></span>
-                        <span>Delayed wound healing</span>
-                    </div>
-
-                    <div class="bss-icon-list">
-                        <span class="bss-icon"><i class="fas fa-bacteria" aria-hidden="true"></i></span>
-                        <span>Signs of infection, such as pus or fever</span>
-                    </div>
                 </div>
 
-
-
                 <div class="border rounded-2 p-4 specialty-card">
-                    <h5>
-                        If you notice any wound on your foot that does not heal within a few days, seek
-                        immediate medical attention.
-                    </h5>
+
+                    <h4 class="mb-4">Signs and Symptoms of Burn Wounds</h4>
+
+                    <p class="mb-4">
+                        The symptoms of a burn depend on its severity and depth. Common signs include:
+                    </p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-circle-exclamation"
+                                        aria-hidden="true"></i></span>
+                                <span>Redness and inflammation</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-hand-holding-medical"
+                                        aria-hidden="true"></i></span>
+                                <span>Pain or tenderness</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-circle" aria-hidden="true"></i></span>
+                                <span>Blister formation</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-arrows-up-down" aria-hidden="true"></i></span>
+                                <span>Swelling</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-bandage" aria-hidden="true"></i></span>
+                                <span>Peeling or damaged skin</span>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-band-aid" aria-hidden="true"></i></span>
+                                <span>Open wounds</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-droplet" aria-hidden="true"></i></span>
+                                <span>Fluid discharge</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-palette" aria-hidden="true"></i></span>
+                                <span>Skin discoloration</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-hand" aria-hidden="true"></i></span>
+                                <span>Reduced sensation in severe burns</span>
+                            </div>
+
+                            <div class="bss-icon-list">
+                                <span class="bss-icon"><i class="fas fa-shield-virus" aria-hidden="true"></i></span>
+                                <span>Signs of infection, such as increased redness, pus, or fever</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <p class="mt-4 mb-0">
+                        Burn wounds should be evaluated promptly, especially if they are deep, extensive, or located
+                        on sensitive areas such as the face, hands, feet, or joints.
+                    </p>
+
                 </div>
 
             </div>

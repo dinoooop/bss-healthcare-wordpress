@@ -27,4 +27,5 @@ get_header();
 <?php get_template_part('templates/home/team'); ?>
 <?php get_template_part('templates/about/tourmaline-left'); ?>
 <?php get_template_part('templates/about/ruby'); ?>
+<?php get_template_part('templates/about/final'); ?>
 <?php get_footer(); ?>

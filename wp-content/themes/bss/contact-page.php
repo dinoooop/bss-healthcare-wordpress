@@ -7,7 +7,7 @@ get_header();
 ?>
 
 <!-- Page Header Start -->
-<div class="container-fluid page-header py-5 mb-5 wow fadeIn" 
+<div class="container-fluid page-header py-5 mb-5 wow fadeIn"
     style="background-image:url('<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>');"
     data-wow-delay="0.1s">
     <div class="container py-5">
@@ -91,15 +91,10 @@ get_header();
 
                     <?php
                     $map_embed = get_option('bss_google_map_embed');
-                    if (!empty($map_embed)) :
-                    ?>
-                        <iframe
-                            class="rounded w-100 h-100"
-                            src="<?php echo esc_url($map_embed); ?>"
-                            frameborder="0"
-                            allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0">
+                    if (!empty($map_embed)):
+                        ?>
+                        <iframe class="rounded w-100 h-100" src="<?php echo esc_url($map_embed); ?>" frameborder="0"
+                            allowfullscreen="" aria-hidden="false" tabindex="0">
                         </iframe>
                     <?php endif; ?>
 
@@ -109,6 +104,18 @@ get_header();
         </div>
     </div>
 </div>
+
+<?php
+if ( have_posts() ) :
+    while ( have_posts() ) :
+        the_post();
+
+        the_content();
+
+    endwhile;
+endif;
+?>
+
 <!-- Contact End -->
 
 <?php get_footer(); ?>

@@ -50,8 +50,7 @@
                             </p>
 
                             <a class="btn" href="<?php the_permalink(); ?>">
-                                <i class="fa fa-plus text-primary me-3"></i>
-                                Read More
+                                <i class="fa fa-plus text-primary me-3"></i> Read More
                             </a>
 
                         </div>

@@ -21,13 +21,16 @@ get_header();
 <!-- Page Header End -->
 <!-- Page Content Start -->
 <?php 
-// get_template_part('templates/advanced'); 
-// get_template_part('templates/multi-speciality-clinic'); 
-// get_template_part('templates/stoma-care'); 
-// get_template_part('templates/home-care'); 
-// get_template_part('templates/podiatry'); 
-// get_template_part('templates/education-research'); 
-get_template_part('templates/diabetic-foot-ulcer'); 
+// get_template_part('templates/advanced');
+// get_template_part('templates/multi-speciality-clinic');
+// get_template_part('templates/stoma-care');
+// get_template_part('templates/home-care');
+// get_template_part('templates/podiatry');
+// get_template_part('templates/education-research');
+// get_template_part('templates/diabetic-foot-ulcer');
+// get_template_part('templates/venous-leg-ulcer');
+// get_template_part('templates/burn-wound');
+// get_template_part('templates/surgical-wound');
 ?>
 
 <!-- Page Content End -->

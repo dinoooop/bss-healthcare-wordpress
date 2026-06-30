@@ -6,7 +6,7 @@
                     alt="Advanced Wound Care at BSS Healthcare International" />
             </div>
             <div class="col-lg-6 diamond__content">
-                <h3>Diamond Left</h3>
+                <h2>Diamond Left</h2>
                 <p>Chronic and complex wounds require more than routine dressing changes. They demand specialized
                     assessment, advanced treatment technologies, and continuous monitoring by experienced wound care
                     professionals. At BSS Healthcare International, Kochi, Kerala, we provide comprehensive Advanced
