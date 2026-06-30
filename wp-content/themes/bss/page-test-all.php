@@ -24,7 +24,10 @@ get_header();
 // get_template_part('templates/advanced'); 
 // get_template_part('templates/multi-speciality-clinic'); 
 // get_template_part('templates/stoma-care'); 
-get_template_part('templates/home-care'); 
+// get_template_part('templates/home-care'); 
+// get_template_part('templates/podiatry'); 
+// get_template_part('templates/education-research'); 
+get_template_part('templates/diabetic-foot-ulcer'); 
 ?>
 
 <!-- Page Content End -->

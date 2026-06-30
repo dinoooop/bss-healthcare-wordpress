@@ -7,7 +7,7 @@
 
         <div class="row g-5 align-items-start">
 
-            <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-md-4 wow fadeIn mb-4" data-wow-delay="0.1s">
                 <div class="rounded-2 shadow-sm overflow-hidden">
 
                     <img src="/wp-content/themes/bss/assets/images/pexels-thirdman-7659567.jpg"
@@ -42,7 +42,7 @@
 
                 </div>
             </div>
-            <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-md-4 wow fadeIn mb-4" data-wow-delay="0.2s">
                 <div class="rounded-2 shadow-sm overflow-hidden">
                     <div class="p-4">
                         <h5 class="mb-4">When Should You Visit a Multi-Speciality Clinic?</h5>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col-md-4 wow fadeIn mb-4" data-wow-delay="0.4s">
                 <div class="rounded-2 shadow-sm overflow-hidden">
                     <div class="p-4">
                         <h5 class="mb-3 mt-4">How Do We Deliver Better Healthcare Outcomes?</h5>

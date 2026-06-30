@@ -21,6 +21,8 @@ get_header();
 <!-- Page Header End -->
 <!-- Page Content Start -->
 <?php 
+get_template_part('sample-templates/sunstone'); 
+get_template_part('sample-templates/onyx'); 
 get_template_part('sample-templates/malachite'); 
 get_template_part('sample-templates/peridot'); 
 get_template_part('sample-templates/aquamarine'); 
