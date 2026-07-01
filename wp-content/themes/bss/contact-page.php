@@ -29,7 +29,6 @@ get_header();
 </div>
 <!-- Page Header End -->
 
-<!-- Contact Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-4">
@@ -115,7 +114,5 @@ if ( have_posts() ) :
     endwhile;
 endif;
 ?>
-
-<!-- Contact End -->
 
 <?php get_footer(); ?>
