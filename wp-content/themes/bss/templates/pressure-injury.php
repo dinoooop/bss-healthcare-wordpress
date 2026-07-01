@@ -7,7 +7,7 @@
             </div>
 
             <div class="col-lg-6 diamond__content">
-                <h1>Advanced Pressure Injury &amp; Bed Sore Management in Kerala, Kochi</h1>
+                <h2>Pressure Injury &amp; Bed Sore Management</h2>
 
                 <p>
                     Pressure injuries, commonly known as bed sores or pressure ulcers, are wounds that develop when

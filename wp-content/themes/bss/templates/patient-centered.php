@@ -7,7 +7,7 @@
             </div>
 
             <div class="col-lg-6 diamond__content">
-                <h1>Patient-Centered Healthcare Services in Kerala, Kochi</h1>
+                <h1>Patient-Centered Healthcare Services</h1>
 
                 <p>
                     At BSS Healthcare International, we believe that exceptional healthcare begins with understanding
@@ -321,7 +321,7 @@
 
 
 <div class="part"
-    style="background-image: url('/wp-content/themes/bss/assets/images/Screenshot 2026-07-01 065150.png'); background-size: cover;">
+    style="background-image: url('/wp-content/themes/bss/assets/images/pexels-babydov-7789616.jpg'); background-size: cover;">
     <div class="container">
 
         <div class="row">
