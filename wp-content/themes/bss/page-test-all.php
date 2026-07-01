@@ -32,7 +32,8 @@ get_header();
 // get_template_part('templates/burn-wound');
 // get_template_part('templates/surgical-wound');
 // get_template_part('templates/pressure-injury');
-get_template_part('templates/patient-centered');
+// get_template_part('templates/patient-centered');
+get_template_part('templates/about-all-sections');
 ?>
 
 <!-- Page Content End -->

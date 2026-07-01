@@ -272,3 +272,39 @@ function bss_get_team_member()
 }
 
 
+
+/**
+ * Display the team section.
+ *
+ * Usage: [team] or [team limit="4"]
+ */
+function bss_team_shortcode($attributes)
+{
+    $attributes = shortcode_atts(
+        array(
+            'limit' => -1,
+        ),
+        $attributes,
+        'team'
+    );
+
+    $limit = (int) $attributes['limit'];
+
+    if ($limit === 0 || $limit < -1) {
+        $limit = -1;
+    }
+
+    ob_start();
+
+    get_template_part(
+        'templates/home/team',
+        null,
+        array(
+            'limit' => $limit,
+        )
+    );
+
+    return (string) ob_get_clean();
+}
+
+add_shortcode('team', 'bss_team_shortcode');
