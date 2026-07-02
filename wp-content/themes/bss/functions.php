@@ -9,6 +9,7 @@ require_once get_template_directory() . '/inc/service-settings.php';
 require_once get_template_directory() . '/inc/testimonial-settings.php';
 require_once get_template_directory() . '/inc/feature-settings.php';
 require_once get_template_directory() . '/inc/team-settings.php';
+require_once get_template_directory() . '/inc/leadership-settings.php';
 require_once get_template_directory() . '/inc/appointment-settings.php';
 require_once get_template_directory() . '/inc/faq-settings.php';
 require_once get_template_directory() . '/inc/footer-settings.php';

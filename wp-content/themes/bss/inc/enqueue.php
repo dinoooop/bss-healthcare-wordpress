@@ -186,6 +186,14 @@ function bss_enqueue_assets()
     );
 
     wp_enqueue_script(
+        'leadership-modal',
+        get_template_directory_uri() . '/assets/js/leadership-modal.js',
+        array('jquery'),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
         'bss-theme-video-testimonial-script',
         get_template_directory_uri() . '/assets/js/video-testimonial.js',
         array('jquery'),
@@ -196,6 +204,14 @@ function bss_enqueue_assets()
     wp_localize_script(
         'team-modal',
         'bssTeam',
+        array(
+            'ajax_url' => admin_url('admin-ajax.php')
+        )
+    );
+
+    wp_localize_script(
+        'leadership-modal',
+        'bssLeadership',
         array(
             'ajax_url' => admin_url('admin-ajax.php')
         )
