@@ -933,7 +933,7 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <p class="d-inline-block border rounded-pill py-1 px-4">
-                    <?php echo esc_html(get_option('bss_appointment_label')); ?>
+                    Appointment
                 </p>
 
                 <h2 class="mb-4">
@@ -961,7 +961,7 @@
                     </div>
                     <div class="ms-4">
                         <p class="mb-2">Call Us Now</p>
-                        <h5 class="mb-0"><?php echo esc_html(get_option('bss_phone_2')); ?></h5>
+                        <h5 class="mb-0">+91 9895157561</h5>
                     </div>
                 </div>
                 <div class="bg-light rounded d-flex align-items-center p-5">
@@ -971,7 +971,7 @@
                     </div>
                     <div class="ms-4">
                         <p class="mb-2">Mail Us Now</p>
-                        <h5 class="mb-0"><?php echo esc_html(get_option('bss_email')); ?></h5>
+                        <h5 class="mb-0">info@bsshealthcare.com</h5>
                     </div>
                 </div>
             </div>
