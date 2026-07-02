@@ -20,6 +20,7 @@ node_modules/
 
 # WordPress uploads (if included accidentally)
 uploads/
+wp-admin/error_log
 
 # Cache
 .cache/
