@@ -41,7 +41,7 @@
                         <?php endif; ?>
 
                         <div class="testimonial-text rounded text-center p-4">
-                            <p><?php echo wp_trim_words(get_the_content(), 50); ?></p>
+                            <p><?php echo esc_html(get_the_content()); ?></p>
 
                             <h5 class="mb-1">
                                 <?php the_title(); ?>
