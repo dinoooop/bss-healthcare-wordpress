@@ -21,6 +21,7 @@ node_modules/
 # WordPress uploads (if included accidentally)
 uploads/
 wp-admin/error_log
+wp-content/themes/bss/assets/videos
 
 # Cache
 .cache/
