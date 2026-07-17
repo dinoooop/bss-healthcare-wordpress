@@ -85,6 +85,19 @@
                         <span class="fst-italic">Kollam</span>
                     </div>
                 </div>
+                <div class="card">
+                    <video class="testimonial-video" controls preload="metadata" poster="images/video-poster.jpg">
+                        <source
+                            src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmioIK0n7ZqbuZApBVfG3F-iDqxXiFnb6XS5D94yQ4c3HDArIIJ0-Q8mJsspCfS-r35cy24MJuaoMmMF0qORLVWmbhUvmU1CefetEmoTaVWvnTDMWK_qbDswuH7PDapZCn5JSA5nJNMZCI=m18"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <div class="author">
+                        <h5 class="mb-1">Beevi</h5>
+                        <span class="fst-italic">Malappuram</span>
+                    </div>
+                </div>
             </div>
 
             <div class="slider-nav">
