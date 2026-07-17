@@ -18,6 +18,35 @@
             <div class="slider">
 
                 <div class="card active">
+                    <video class="testimonial-video" controls preload="metadata" poster="images/video-poster.jpg">
+                        <source
+                            src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntHO2muVqad6VQzyx80hAukBnTXji06tDhx8z1612VS4Pt_Gm0AwF9nt0Oeu7fpGaJ3XVmojnEL4b9BkCtG3LFUsFosEsA3u_YIUkxz5YI0_Wgb9KFV9WXLuc_W0WciDBwkhFSoGdGA0KO=m18"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <div class="author">
+                        <h5 class="mb-1">Moosa</h5>
+                        <span class="fst-italic">Malappuram</span>
+                    </div>
+                </div>
+                <div class="card">
+
+
+                    <video class="testimonial-video" controls preload="metadata" poster="images/video-poster.jpg">
+                        <source
+                            src="<?php echo get_template_directory_uri(); ?>/assets/videos/sindhu.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <div class="author">
+                        <h5 class="mb-1">Sindhu</h5>
+                        <span class="fst-italic">Ayyanthol</span>
+                    </div>
+                </div>
+
+                <div class="card">
 
 
                     <video class="testimonial-video" controls preload="metadata" poster="images/video-poster.jpg">
@@ -32,17 +61,27 @@
                         <span class="fst-italic">Cherthala</span>
                     </div>
                 </div>
-
+                <div class="card">
+                    <video class="testimonial-video" controls preload="metadata" poster="images/video-poster.jpg">
+                        <source src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDViLSgIArelajVmSEoUUmv6-VnKss83QcyhVICivrzG4Rsgq8-iyFj1GkA0486oS85rBaMdiSqXsG8IuVO7zoydcLAQi7AJl8Qgj2OObbMAoUmEKcVikkJoEhah97MflCKOxsBIJEG9iY=m18">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="author">
+                        <h5 class="mb-1">Balakrishna Varyar</h5>
+                        <span class="fst-italic">Mulanthuruthy</span>
+                    </div>
+                </div>
+                
                 <div class="card">
                     <video class="testimonial-video" controls preload="metadata" poster="images/video-poster.jpg">
                         <source
-                            src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwkQFB9QTCMDURSQ4pmUD5xYHqcfLAYkXZPuLHyaFstctD2n75E1t2wf4_FTWGXwCS38nZsNGR29wqy6glXxSjXD9EOAkuG1QryPI34cORd8QJp9uPPP0WlGkHvkT8rDvVcnfbTirfAOg=m18"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/videos/manoj-kumar.mp4"
                             type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
 
                     <div class="author">
-                        <h5 class="mb-1">Jenson Jacob</h5>
+                        <h5 class="mb-1">Manoj Kumar</h5>
                         <span class="fst-italic">Kollam</span>
                     </div>
                 </div>
