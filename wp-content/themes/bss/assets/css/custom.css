@@ -276,6 +276,12 @@
     height: 90px;
 }
 
+@media (max-width: 991.98px) {
+    .logo-set {
+        width: 100%;
+    }
+}
+
 @media (max-width: 575.98px) {
     .logo img {
         width: 80%;
