@@ -74,7 +74,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
 
-        <div class="d-flex align-items-center">
+        <div class="w-100 d-flex align-items-center justify-content-between">
             <a href="<?php echo esc_url(home_url('/')); ?>"
                 class="logo navbar-brand d-flex align-items-center px-4 px-lg-5">
 
