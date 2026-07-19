@@ -270,3 +270,16 @@
 .bss-block-card:hover {
     border-color: var(--primary);
 }
+
+.logo img {
+
+    height: 90px;
+}
+
+@media (max-width: 575.98px) {
+    .logo img {
+        width: 80%;
+        height: auto;
+    }
+
+}

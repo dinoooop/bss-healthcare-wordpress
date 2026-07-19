@@ -74,16 +74,20 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
 
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <div class="d-flex align-items-center">
+            <a href="<?php echo esc_url(home_url('/')); ?>"
+                class="logo navbar-brand d-flex align-items-center px-4 px-lg-5">
 
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png"
-                alt="<?php bloginfo('name'); ?>" style="height: 90px;">
-        </a>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png"
+                    alt="<?php bloginfo('name'); ?>">
+            </a>
 
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
 
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
